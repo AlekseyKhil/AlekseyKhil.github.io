@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, sans-serif;
+}
 nav{
     width: 100%;
     height: 60px;
@@ -9,14 +12,51 @@ nav{
     color: #fff;
     font-size: 21px;
     line-height: 60px;
-    margin-left: 388px;
+    margin-left: 110px;
     float: left;
 }
 .menu{
     float: left;
     padding-left: 432px;
+   
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}   
+.main{
+width: 100%;
+    height: calc(100% - 60px);
+    background: url(../Img/boy.png) 90% 100%/auto 85% no-repeat , url(../Img/bg.jpg) center/cover no-repeat;
+}
+.title__contanier{
+   float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
     
 }
-    
+.title__contanier h1{
+    font-size: 60px;
+    font-weight: bold;
+ 
+}
+.title__contanier h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+.title__contanier input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+}
+ 
+
+
 
 
